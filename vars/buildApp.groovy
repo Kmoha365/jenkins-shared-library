@@ -1,3 +1,4 @@
 def call () {
-    echo "Hello welcome to shared library"
+    echo "Building package"
+    sh "mvn clean -B install"
 }
